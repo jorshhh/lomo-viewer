@@ -7,7 +7,7 @@ function Home({ navigation, screenName }) {
     <View>
     <Text>Home Screen</Text>
     <Button
-      title="Go to Details"
+      title="Go Settings"
       onPress={() => navigation.navigate('Search')}
     />      
     </View>
