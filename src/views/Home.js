@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import {  Text, Button, View } from 'react-native';
 
-function Home({ navigation, screenName }) {
-  
-  return (
+export class Home extends Component {
+
+  render() {return (
     <View>
     <Text>Home Screen</Text>
     <Button
       title="Go to Details"
-      onPress={() => navigation.navigate('Search')}
+      onPress={() => this.props.navigation.navigate('Search')}
     />      
     </View>
-  )
+  )}
+
 };
 
 export default Home;
