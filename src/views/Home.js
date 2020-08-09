@@ -9,6 +9,7 @@ export class Home extends Component {
     <Button
       title="Go to Details"
       onPress={() => this.props.navigation.navigate('Search')}
+
     />      
     </View>
   )}
